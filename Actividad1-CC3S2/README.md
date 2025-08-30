@@ -11,7 +11,7 @@ Tiempo total invertido: 04:13
 
 -Agrega una imagen comparativa en imagenes/devops-vs-cascada.png. Puede ser un diagrama propio sencillo.  
 
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo_Software_CC3S2/main/Actividad1-CC3S2/imagenes/devops-vs-cascada.png" width="500"/>  
+<img src="https://github.com/AriusJoel1/Desarrollo-De-Software/blob/main/Actividad1-CC3S2/imagenes/devops-vs-cascada.png" width="500"/>  
 
 En el modelo tradicional en cascada, el desarrollo se organiza por fases rígidas y secuenciales. Esto causa retrasos en la detección de errores, poca flexibilidad frente a cambios y grandes lotes de entrega que suelen fallar tarde. En cambio, DevOps promueve ciclos cortos con cambios pequeños, retroalimentación constante y despliegues automatizados mediante CI/CD. Así, se acelera la entrega de valor y se disminuyen los riesgos en entornos de nube.  
 
@@ -29,7 +29,7 @@ Un contexto donde la cascada aún es adecuada son los sistemas regulados (por ej
 
 -Inserta una imagen de silos organizacionales en imagenes/silos-equipos.png (o un dibujo propio).  
 
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo_Software_CC3S2/main/Actividad1-CC3S2/imagenes/silos-equipos.png" width="500"/>  
+<img src="https://github.com/AriusJoel1/Desarrollo-De-Software/blob/main/Actividad1-CC3S2/imagenes/silos-equipos.png" width="500"/>  
 
 -Identifica dos limitaciones del ciclo "construcción -> operación" sin integración continua (por ejemplo, grandes lotes, colas de defectos).  
 
@@ -100,7 +100,7 @@ Dos señales que evitan el “teatro de seguridad”:
 
 -Inserta una imagen del pipeline o canary en imagenes/pipeline_canary.png.  
 
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo_Software_CC3S2/main/Actividad1-CC3S2/imagenes/pipeline_canary.png" width="500"/>  
+<img src="https://github.com/AriusJoel1/Desarrollo-De-Software/blob/main/Actividad1-CC3S2/imagenes/pipeline_canary.png" width="500"/>  
 
 -Elige una estrategia para un microservicio crítico (por ejemplo, autenticación) y justifica.  
 
@@ -156,7 +156,7 @@ Se mantienen los tres desafíos (cultural, técnico, gobernanza), riesgos con mi
 
 Imagen:  
 
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo_Software_CC3S2/main/Actividad1-CC3S2/imagenes/arquitectura-minima.png"/>  
+<img src="https://github.com/AriusJoel1/Desarrollo-De-Software/blob/main/Actividad1-CC3S2/imagenes/arquitectura-minima.png"/>  
 
 Explicación con controles en cada capa (DNS → caché, TLS → validación de certificados, HTTP → contratos de API, Servicio → rate limits).  
 Relación con 12-Factor (config externa por entorno, logs en stdout).  
