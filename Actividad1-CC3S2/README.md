@@ -1,7 +1,7 @@
 ## Introducción devops, devsecops
 
-FECHA: 31/08/2025  
-Tiempo total invertido: 04:13  
+FECHA: 30/08/2025  
+Tiempo total invertido: 03:54  
 
 
 
