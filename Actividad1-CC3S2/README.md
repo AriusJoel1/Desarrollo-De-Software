@@ -23,7 +23,7 @@ Un  contexto cercano a cascada es en los sistemas regulados o hardware cerrado (
 
 -Inserta una imagen de silos organizacionales en imagenes/silos-equipos.png (o un dibujo propio).
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/silos-equipos.png)
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/silos-equipos.png" width="500"/>
 
 -Identifica dos limitaciones del ciclo "construcción -> operación" sin integración continua (por ejemplo, grandes lotes, colas de defectos).
 
@@ -74,7 +74,7 @@ Validación: que los umbrales sean concretos y la excepción tenga fecha límite
 
 -Inserta una imagen del pipeline o canary en imagenes/pipeline_canary.png.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/pipeline_canary.png)
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/pipeline_canary.png" width="500"/>
 
 -Elige una estrategia para un microservicio crítico (por ejemplo, autenticación) y justifica.
 
@@ -115,9 +115,12 @@ La cabecera Cache-Control impacta directamente en el rendimiento porque define c
 
 -Captura: imagenes/http-evidencia.png, con los campos resaltados.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/http-evidencia.png)
+<h3>Evidencia: Solicitud HTTP</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/http-evidencia.png" width="500"/>
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/evidencia1.png)
+<h3>Evidencia 1: Logs y validación</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/evidencia1.png" width="500"/>
+
 
 2) DNS - nombres y TTL
 
