@@ -92,8 +92,6 @@ Define un KPI primario (p. ej., error 5xx, latencia p95) y un umbral numérico c
 | Costo operativo de doble despliegue | Límites de tiempo para convivencia de versiones                        |
 | Manejo de sesiones activas          | Draining de conexiones y compatibilidad en esquemas de base de datos   |
 
-
-
 Pregunta retadora: si el KPI técnico se mantiene, pero cae una métrica de producto (conversión), explica por qué ambos tipos de métricas deben coexistir en el gate.
 
 El KPI primario podría ser la tasa de errores como 5xx < 1% durante una ventana de observación de 15 minutos. Donde si el canary se mantiene bajo ese umbral, se promueve; si no, rollback inmediato.
@@ -118,6 +116,7 @@ La cabecera Cache-Control impacta directamente en el rendimiento porque define c
 -Captura: imagenes/http-evidencia.png, con los campos resaltados.
 
 ![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/http-evidencia.png)
+
 ![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/evidencia1.png)
 
 2) DNS - nombres y TTL
@@ -133,6 +132,7 @@ Este valor indica cuánto tiempo los clientes y resolvers pueden mantener en cac
 -Captura: imagenes/dns-ttl.png, con el TTL destacado.
 
 ![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl.png)
+
 ![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl1.png)
 
 3) TLS - seguridad en tránsito
