@@ -4,11 +4,12 @@ FECHA: 31/08/2025
 Tiempo total invertido: 04:13
 
 ### Dia 1
+
 #### 4.1 DevOps vs cascada tradicional (investigación + comparación)
 
 -Agrega una imagen comparativa en imagenes/devops-vs-cascada.png. Puede ser un diagrama propio sencillo.
 
-## imagenes/devops-vs-cascada.png
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/devops-vs-cascada.jpg)
 
 Explica por qué DevOps acelera y reduce riesgo en software para la nube frente a cascada (feedback continuo, pequeños lotes, automatización).
 
@@ -18,11 +19,11 @@ Para el modelo tradicional de cascada, el desarrollo se hace por fases sin retro
 
 Un  contexto cercano a cascada es en los sistemas regulados o hardware cerrado (como los dispositivos médicos o control industrial muy utilizados en estos tiempos) donde los ciclos de certificación tardan meses y el hardware no permite iteraciones rápidas. Ademas, dos criterios verificables serían: el tiempo estándar de validación regulatoria (aprox 6 meses) y la dependencia de pruebas físicas con hardware, no reproducibles en entornos digitales. Finalmente el trade-off seria: velocidad versus conformidad y seguridad.
 
-4.2 Ciclo tradicional de dos pasos y silos (limitaciones y anti-patrones).
+#### 4.2 Ciclo tradicional de dos pasos y silos (limitaciones y anti-patrones).
 
 -Inserta una imagen de silos organizacionales en imagenes/silos-equipos.png (o un dibujo propio).
 
-silos-equipos.png
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/silos-equipos.png)
 
 -Identifica dos limitaciones del ciclo "construcción -> operación" sin integración continua (por ejemplo, grandes lotes, colas de defectos).
 
@@ -32,8 +33,7 @@ Cuando el ciclo se limita a construcción y operación sin integración continua
 
 Dos antipatrones comunes que agravan es el throw over the wall, donde los desarrolladores lanzan código sin contexto al equipo de operaciones y el otro es el enfoque de seguridad como auditoría tardía, donde los problemas de seguridad se detectan al final del ciclo. Ambos elevan el tiempo medio de recuperación, aumentan el retrabajo y provocan degradaciones repetitivas
 
-
-4.3 Principios y beneficios de DevOps (CI/CD, automatización, colaboración; Agile como precursor)
+#### 4.3 Principios y beneficios de DevOps (CI/CD, automatización, colaboración; Agile como precursor)
 
 -Describe CI y CD destacando tamaño de cambios, pruebas automatizadas cercanas al código y colaboración.
 
@@ -47,9 +47,9 @@ Las prácticas ágiles como las reuniones diarias y retrospectivas ayudan a deci
 
 Un indicador observable no financiero podría ser el tiempo promedio entre PR listo y despliegue en entorno de pruebas. Estos se pueden medir usando los timestamps de los PRs y los registros de despliegue, con scripts.
 
-#### Dia 2
+### Dia 2
 
-4.4 Evolución a DevSecOps (seguridad desde el inicio: SAST/DAST; cambio cultural)
+#### 4.4 Evolución a DevSecOps (seguridad desde el inicio: SAST/DAST; cambio cultural)
 
 -Diferencia SAST (estático, temprano) y DAST (dinámico, en ejecución), y ubícalos en el pipeline.
 
@@ -70,11 +70,11 @@ Validación: que los umbrales sean concretos y la excepción tenga fecha límite
 2) Menor tiempo de remediación que se puede observar midiendo desde que se abre un issue hasta que se corrige y despliega.
 
 
-4.5 CI/CD y estrategias de despliegue (sandbox, canary, azul/verde)
+#### 4.5 CI/CD y estrategias de despliegue (sandbox, canary, azul/verde)
 
 -Inserta una imagen del pipeline o canary en imagenes/pipeline_canary.png.
 
-pipeline_canary
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/pipeline_canary.png)
 
 -Elige una estrategia para un microservicio crítico (por ejemplo, autenticación) y justifica.
 
@@ -99,15 +99,11 @@ Pregunta retadora: si el KPI técnico se mantiene, pero cae una métrica de prod
 El KPI primario podría ser la tasa de errores como 5xx < 1% durante una ventana de observación de 15 minutos. Donde si el canary se mantiene bajo ese umbral, se promueve; si no, rollback inmediato.
 
 
+### Dia 3
 
-
-#### Dia 3
-
-
-4.6 Fundamentos prácticos sin comandos 
+#### 4.6 Fundamentos prácticos sin comandos 
 
 Realiza comprobaciones con herramientas estándar, pero no pegues los comandos. En el README escribe los hallazgos y la interpretación. Adjunta tus capturas en imagenes/ y marca los campos relevantes (códigos, cabeceras, TTL, CN/SAN, fechas, puertos).
-
 
 1) HTTP - contrato observable
 
@@ -115,14 +111,14 @@ Realiza comprobaciones con herramientas estándar, pero no pegues los comandos. 
 
 La comprobación HTTP se realizó sobre un endpoint accesible vía GET. El método usado fue GET, el código de estado devuelto fue 200 OK y se destacaron dos cabeceras que fuero cache-control y X Amzn Trace Id.
 
-
 -Explica por qué esas cabeceras influyen en rendimiento, caché u observabilidad.
 
 La cabecera Cache-Control impacta directamente en el rendimiento porque define cuánto tiempo las respuestas pueden almacenarse en caché, reduciendo la carga en el servidor. Por otro lado, X Amzn Trace Id es clave para la trazabilidad, ya que permite seguir una petición a lo largo de distintos servicios, aportando observabilidad para depuración o diagnóstico.
 
 -Captura: imagenes/http-evidencia.png, con los campos resaltados.
 
-imagenes/http-evidencia.png
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/http-evidencia.png)
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/evidencia1.png)
 
 2) DNS - nombres y TTL
 
@@ -136,7 +132,8 @@ Este valor indica cuánto tiempo los clientes y resolvers pueden mantener en cac
 
 -Captura: imagenes/dns-ttl.png, con el TTL destacado.
 
-imagenes/dns-ttl.png
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl.png)
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl1.png)
 
 3) TLS - seguridad en tránsito
 
@@ -151,7 +148,7 @@ Si la cadena del certificado no es válida o el certificado está caducado, los 
 
 -Captura: imagenes/tls-cert.png, con CN/SAN, emisora y fechas.
 
-imagenes/tls-cert.png
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/tls-cert.png)
 
 4) Puertos - estado de runtime
 
@@ -165,7 +162,7 @@ Verificar qué puertos están activos ayuda a identificar despliegues incompleto
 
 -Captura: imagenes/puertos.png, con los puertos resaltados.
 
-imagenes/puertos.png
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/puertos.png)
 
 5) 12-Factor - port binding, configuración, logs
 
@@ -213,7 +210,7 @@ Checklist incidente (usuarios reportan intermitencia)
    - Si fuera de umbral → acción: rollback y análisis de causa raíz.
 
 
-4.7 Desafíos de DevOps y mitigaciones
+#### 4.7 Desafíos de DevOps y mitigaciones
 
 -Inserta un diagrama propio o ilustración en imagenes/desafios_devops.png con tres desafíos anotados (culturales, técnicos, de gobernanza).
 
@@ -221,18 +218,17 @@ Desafios:
 Cultural: Resistencia al cambio y falta de colaboración:
 Equipos de desarrollo, operaciones y QA a menudo trabajan en silos. Implementar DevOps requiere cambiar mentalidades y fomentar la colaboración.
 
-imagenes/desafios_devops1.png 
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops1.jpg)
 
 Desafío técnico: Integración y automatización de herramientas:
 Integrar múltiples herramientas de CI/CD, monitoreo, testing, etc., de forma coherente y automatizada.
 
-imagenes/desafios_devops.png 
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg)
 
 Desafío de gobernanza: Seguridad y cumplimiento normativo
 Asegurar que los procesos DevOps cumplan con regulaciones (como GDPR, HIPAA) sin frenar la velocidad de entrega.
 
-imagenes/desafios_devops2.png 
-
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops2.png)
 
 -Enumera tres riesgos con su mitigación concreta (rollback, despliegues graduales, revisión cruzada, límites de "blast radius").
 
@@ -243,11 +239,11 @@ Los principales riesgos en un despliegue incluyen fallos críticos que obliguen 
 Un experimento controlado para validar despliegues graduales consistiría en comparar un grupo con despliegue big-bang frente a otro con despliegue progresivo, midiendo como métrica principal la tasa de errores en producción. El criterio de éxito sería demostrar menor impacto en el grupo gradual, con un plan de reversión inmediato si la tasa excede un umbral definido.
 
 
-4.8 Arquitectura mínima para DevSecOps (HTTP/DNS/TLS + 12-Factor)
+#### 4.8 Arquitectura mínima para DevSecOps (HTTP/DNS/TLS + 12-Factor)
 
 -Dibuja un diagrama propio en imagenes/arquitectura-minima.png con el flujo: Cliente -> DNS -> Servicio (HTTP) -> TLS, e indica dónde aplicar controles (políticas de caché, validación de certificados, contratos de API, límites de tasa).
 
-imagenes/arquitectura-minima.png 
+![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/arquitectura-minima.png)
 
 -Explica cómo cada capa contribuye a despliegues seguros y reproducibles.
 
