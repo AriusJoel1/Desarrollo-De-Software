@@ -233,7 +233,7 @@ Desafío técnico: Integración y automatización de herramientas:
 Integrar múltiples herramientas de CI/CD, monitoreo, testing, etc., de forma coherente y automatizada.
 
 <h3>Desafíos de DevOps</h3>
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg" width="500"/>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg" width="300"/>
 
 Desafío de gobernanza: Seguridad y cumplimiento normativo
 Asegurar que los procesos DevOps cumplan con regulaciones (como GDPR, HIPAA) sin frenar la velocidad de entrega.
