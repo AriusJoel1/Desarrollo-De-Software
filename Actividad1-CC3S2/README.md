@@ -3,8 +3,8 @@
 FECHA: 31/08/2025
 Tiempo total invertido: 04:13
 
-#### Dia 1
-4.1 DevOps vs cascada tradicional (investigación + comparación)
+### Dia 1
+#### 4.1 DevOps vs cascada tradicional (investigación + comparación)
 
 -Agrega una imagen comparativa en imagenes/devops-vs-cascada.png. Puede ser un diagrama propio sencillo.
 
