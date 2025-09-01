@@ -134,9 +134,12 @@ Este valor indica cuánto tiempo los clientes y resolvers pueden mantener en cac
 
 -Captura: imagenes/dns-ttl.png, con el TTL destacado.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl.png)
+<h3>Evidencia DNS: TTL Configurado</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl.png" width="500"/>
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl1.png)
+<h3>Evidencia DNS (parte 2): TTL Detallado</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/dns-ttl1.png" width="500"/>
+
 
 3) TLS - seguridad en tránsito
 
@@ -151,7 +154,8 @@ Si la cadena del certificado no es válida o el certificado está caducado, los 
 
 -Captura: imagenes/tls-cert.png, con CN/SAN, emisora y fechas.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/tls-cert.png)
+<h3>Evidencia TLS: Certificado Válido</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/tls-cert.png" width="500"/>
 
 4) Puertos - estado de runtime
 
@@ -165,7 +169,9 @@ Verificar qué puertos están activos ayuda a identificar despliegues incompleto
 
 -Captura: imagenes/puertos.png, con los puertos resaltados.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/puertos.png)
+
+<h3>Evidencia: Puertos Expuestos</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/puertos.png" width="500"/>
 
 5) 12-Factor - port binding, configuración, logs
 
@@ -226,12 +232,14 @@ Equipos de desarrollo, operaciones y QA a menudo trabajan en silos. Implementar 
 Desafío técnico: Integración y automatización de herramientas:
 Integrar múltiples herramientas de CI/CD, monitoreo, testing, etc., de forma coherente y automatizada.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg)
+<h3>Desafíos de DevOps</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg" width="500"/>
 
 Desafío de gobernanza: Seguridad y cumplimiento normativo
 Asegurar que los procesos DevOps cumplan con regulaciones (como GDPR, HIPAA) sin frenar la velocidad de entrega.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops2.png)
+<h3>Desafíos de DevOps</h3>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops2.jpg" width="500"/>
 
 -Enumera tres riesgos con su mitigación concreta (rollback, despliegues graduales, revisión cruzada, límites de "blast radius").
 
