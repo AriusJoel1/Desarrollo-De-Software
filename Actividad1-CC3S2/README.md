@@ -227,19 +227,19 @@ Desafios:
 Cultural: Resistencia al cambio y falta de colaboración:
 Equipos de desarrollo, operaciones y QA a menudo trabajan en silos. Implementar DevOps requiere cambiar mentalidades y fomentar la colaboración.
 
-![](https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops1.jpg)
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg" width="300"/>
 
 Desafío técnico: Integración y automatización de herramientas:
 Integrar múltiples herramientas de CI/CD, monitoreo, testing, etc., de forma coherente y automatizada.
 
 <h3>Desafíos de DevOps</h3>
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg" width="300"/>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops.jpg" width="500"/>
 
 Desafío de gobernanza: Seguridad y cumplimiento normativo
 Asegurar que los procesos DevOps cumplan con regulaciones (como GDPR, HIPAA) sin frenar la velocidad de entrega.
 
 <h3>Desafíos de DevOps</h3>
-<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops2.jpg" width="500"/>
+<img src="https://raw.githubusercontent.com/AriusJoel1/Desarrollo-De-Software/main/Actividad1-CC3S2/imagenes/desafios_devops2.png" width="500"/>
 
 -Enumera tres riesgos con su mitigación concreta (rollback, despliegues graduales, revisión cruzada, límites de "blast radius").
 
