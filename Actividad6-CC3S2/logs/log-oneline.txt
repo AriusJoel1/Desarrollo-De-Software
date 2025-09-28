@@ -1,0 +1,9 @@
+6853536 Agrega main.py
+a114c75 Commit inicial para la actividad 6
+a4f1aec feat: actividad 5 completa
+113f17e actividad 1
+7b88a4d actividad 1
+2d551fc actividad 1
+4c5cb95 actividad 1
+67704ea actividad 1
+947c4b8 Semana1

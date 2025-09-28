@@ -1,0 +1,5 @@
+Auto-merging Actividad6-CC3S2/main.py
+CONFLICT (content): Merge conflict in Actividad6-CC3S2/main.py
+Automatic merge failed; fix conflicts and then commit the result.
+[main 5d2ab2f] resolvemos el conflicto de la fusion
+Deleted branch feature/advanced-feature (was 27d74b1).

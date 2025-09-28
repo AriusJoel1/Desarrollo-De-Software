@@ -14,3 +14,10 @@ Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+[main e2b8460] Agrega main.py
+ 2 files changed, 6 insertions(+)
+ create mode 100644 Actividad6-CC3S2/main.py
+[feature/advanced-feature 3c403ec] Agrega la funcion greet
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[main de9280a] actualizar mensaje de main en la rama
+ 1 file changed, 1 insertion(+), 1 deletion(-)
