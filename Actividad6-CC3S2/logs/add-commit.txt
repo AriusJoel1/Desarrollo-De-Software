@@ -9,3 +9,8 @@ nothing added to commit but untracked files present (use "git add" to track)
 [main 0a556eb] Commit inicial para la actividad 6
  1 file changed, 1 insertion(+)
  create mode 100644 Actividad6-CC3S2/README.md
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
