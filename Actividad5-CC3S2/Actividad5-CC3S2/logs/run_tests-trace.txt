@@ -1,0 +1,43 @@
++ set -euo pipefail
++ IFS='
+	'
++ umask 027
++ set -o noclobber
++ PY=python3
++ SRC_DIR=src
+++ mktemp
++ tmp=/tmp/tmp.uFvqmjExMa
++ trap 'cleanup $?' EXIT INT TERM
++ echo 'Demostrando pipefail:'
+Demostrando pipefail:
++ set +o pipefail
++ false
++ true
++ echo 'Sin pipefail: el pipe se considera exitoso (status 0).'
+Sin pipefail: el pipe se considera exitoso (status 0).
++ set -o pipefail
++ false
++ true
++ :
++ cat
++ check_deps
++ deps=('python3' 'grep')
++ local -a deps
++ for dep in "${deps[@]}"
++ command -v python3
++ for dep in "${deps[@]}"
++ command -v grep
++ run_tests src/hello.py
++ local script=src/hello.py
++ local output
+++ python3 src/hello.py
++ output='Hello, World!'
++ echo 'Hello, World!'
++ grep -Fq 'Hello, World!'
++ echo 'Test pasó: Hello, World!'
+Test pasó: Hello, World!
++ cleanup 0
++ rc=0
++ rm -f /tmp/tmp.uFvqmjExMa
++ '[' -f src/hello.py.bak ']'
++ exit 0
