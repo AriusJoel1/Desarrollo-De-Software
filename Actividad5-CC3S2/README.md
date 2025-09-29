@@ -1,6 +1,7 @@
 ## Actividad 5: Construyendo un pipeline DevOps con Make y Bash
 
 Damos permisos con chmod y comprobamos las herramientas esenciales
+
 ![alt text](img/image.png) 
 
 
@@ -52,6 +53,7 @@ Utilizamos make -n build -> dry-run que simula la ejecución sin hacer nada. Y l
 El comando `mkdir -p $(@D)` crea el directorio destino si no existe. Esto es necesario para evitar errores al intentar crear o escribir el archivo objetivo dentro de un directorio inexistente.
 
 Evidencia: 
+
 ![alt text](img/image-7.png)
 
 
